@@ -1,3 +1,5 @@
+(copy_files# generated/*)
+
 (library
   (name athene)
   (public_name athene)
