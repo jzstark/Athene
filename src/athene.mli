@@ -1,10 +1,7 @@
-module G : Owl_computation_graph_sig.Sig
+(* variables values to a hdf5 file. *)
 
+open Athene_types
 
-(* Save computation graph variables values to a hdf5 file.
- * Assume the cgraph is already evaluated.
- *)
-val save_cgraph_variables : G.graph -> string -> unit
-
+val save_hdf5 : (string * ndarray) array -> string -> unit
 
 (* val serialise_tfvariable : tfnode -> bytes *)
