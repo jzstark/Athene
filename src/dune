@@ -1,0 +1,5 @@
+(library
+  (name athene)
+  (public_name athene)
+  (libraries owl owl-base owl-tensorflow ocaml-protoc hdf5_caml)
+)
